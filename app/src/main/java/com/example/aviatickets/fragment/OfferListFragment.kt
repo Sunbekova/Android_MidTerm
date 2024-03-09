@@ -50,12 +50,14 @@ class OfferListFragment : Fragment() {
                         /**
                          * implement sorting by price
                          */
+                        adapter.sortOffersByPrice()
                     }
 
                     R.id.sort_by_duration -> {
                         /**
                          * implement sorting by duration
                          */
+                        adapter.sortOffersByDuration()
                     }
                 }
             }
